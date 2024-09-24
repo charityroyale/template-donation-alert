@@ -1,4 +1,16 @@
-# Phaser Vite TypeScript Template
+# Phaser Template for Charity Royale "Call-For-Alerts"
+
+This is a fork of the original [Phaser Vite TypeScript Template](https://github.com/phaserjs/template-vite-ts). It gives you a starting a point to create an awesome donation alert for [Charity Royale](https://charityroyale.at/).
+
+Every year, we raise over EUR 250,000 through a charity streaming event on Twitch called “Charity Royale.” The funds go directly to the Make-A-Wish Foundation, with no deductions for volunteer work, to grant the heartfelt wishes of children with severe mental and/or physical disabilities.
+
+The “Call-For-Alerts” is open until October 14th. The Charity Royale team will review all submissions and decide which alerts to integrate into this year’s event. We have room for several alerts, with some triggering for larger donations and others for smaller amounts. We are looking forward to awesome alerts made for the good cause and thank you for your support!
+
+Submit your Sandbox or OpenSource repository URL by sending me (Heideltraut on Phaser Discord) a DM or emailing me at hello@hammertime.studio.
+
+This template is also available as Sandbox at https://phaser.io/sandbox/yKLgrdSV.
+
+## Phaser Vite TypeScript Template
 
 This is a Phaser 3 project template that uses Vite for bundling. It supports hot-reloading for quick development workflow, includes TypeScript support and scripts to generate production-ready builds.
 
@@ -8,11 +20,9 @@ This is a Phaser 3 project template that uses Vite for bundling. It supports hot
 
 This template has been updated for:
 
-- [Phaser 3.85.2](https://github.com/phaserjs/phaser)
-- [Vite 5.3.1](https://github.com/vitejs/vite)
-- [TypeScript 5.4.5](https://github.com/microsoft/TypeScript)
-
-![screenshot](screenshot.png)
+-   [Phaser 3.85.2](https://github.com/phaserjs/phaser)
+-   [Vite 5.3.1](https://github.com/vitejs/vite)
+-   [TypeScript 5.4.5](https://github.com/microsoft/TypeScript)
 
 ## Requirements
 
@@ -20,12 +30,12 @@ This template has been updated for:
 
 ## Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm run dev` | Launch a development web server |
-| `npm run build` | Create a production build in the `dist` folder |
-| `npm run dev-nolog` | Launch a development web server without sending anonymous data (see "About log.js" below) |
+| Command               | Description                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------- |
+| `npm install`         | Install project dependencies                                                                             |
+| `npm run dev`         | Launch a development web server                                                                          |
+| `npm run build`       | Create a production build in the `dist` folder                                                           |
+| `npm run dev-nolog`   | Launch a development web server without sending anonymous data (see "About log.js" below)                |
 | `npm run build-nolog` | Create a production build in the `dist` folder without sending anonymous data (see "About log.js" below) |
 
 ## Writing Code
@@ -40,13 +50,13 @@ Once the server is running you can edit any of the files in the `src` folder. Vi
 
 We have provided a default project structure to get you started. This is as follows:
 
-- `index.html` - A basic HTML page to contain the game.
-- `src` - Contains the game source code.
-- `src/main.ts` - The main **entry** point. This contains the game configuration and starts the game.
-- `src/vite-env.d.ts` - Global TypeScript declarations, provide types information.
-- `src/scenes/` - The Phaser Scenes are in this folder.
-- `public/style.css` - Some simple CSS rules to help with page layout.
-- `public/assets` - Contains the static assets used by the game.
+-   `index.html` - A basic HTML page to contain the game.
+-   `src` - Contains the game source code.
+-   `src/main.ts` - The main **entry** point. This contains the game configuration and starts the game.
+-   `src/vite-env.d.ts` - Global TypeScript declarations, provide types information.
+-   `src/scenes/` - The Phaser Scenes are in this folder.
+-   `public/style.css` - Some simple CSS rules to help with page layout.
+-   `public/assets` - Contains the static assets used by the game.
 
 ## Handling Assets
 
@@ -61,15 +71,15 @@ import logoImg from './assets/logo.png'
 To load static files such as audio files, videos, etc place them into the `public/assets` folder. Then you can use this path in the Loader calls within Phaser:
 
 ```js
-preload ()
+preload()
 {
-    //  This is an example of an imported bundled image.
-    //  Remember to import it at the top of this file
-    this.load.image('logo', logoImg);
+	//  This is an example of an imported bundled image.
+	//  Remember to import it at the top of this file
+	this.load.image('logo', logoImg)
 
-    //  This is an example of loading a static image
-    //  from the public/assets folder:
-    this.load.image('background', 'assets/bg.png');
+	//  This is an example of loading a static image
+	//  from the public/assets folder:
+	this.load.image('background', 'assets/bg.png')
 }
 ```
 
@@ -79,7 +89,7 @@ When you issue the `npm run build` command, all static assets are automatically 
 
 After you run the `npm run build` command, your code will be built into a single bundle and saved to the `dist` folder, along with any other assets your project imported, or stored in the public assets folder.
 
-In order to deploy your game, you will need to upload *all* of the contents of the `dist` folder to a public facing web server.
+In order to deploy your game, you will need to upload _all_ of the contents of the `dist` folder to a public facing web server.
 
 ## Customizing the Template
 
