@@ -2,13 +2,13 @@
 
 This is a fork of the original [Phaser Vite TypeScript Template](https://github.com/phaserjs/template-vite-ts). It gives you a starting a point to create an awesome donation alert for [Charity Royale](https://charityroyale.at/).
 
-Every year, we raise over EUR 250,000 through a charity streaming event on Twitch called “Charity Royale.” The funds go directly to the Make-A-Wish Foundation, with no deductions for volunteer work, to grant the heartfelt wishes of children with severe mental and/or physical disabilities.
+Every year, we raise over EUR 250,000 through a charity streaming event on Twitch called “Charity Royale.” The funds go directly to the Make-A-Wish Foundation, with no deductions for volunteer work, to grant the heartfelt wishes of children with severe mental and/or physical illnesses.
 
-The “Call-For-Alerts” is open until October 14th. The Charity Royale team will review all submissions and decide which alerts to integrate into this year’s event. We have room for several alerts, with some triggering for larger donations and others for smaller amounts. We are looking forward to awesome alerts made for the good cause and thank you for your support!
+The “Call-For-Alerts” is open until October 14th. The Charity Royale team will review all submissions and decide which alerts to integrate into this year’s event. We have room for several alerts, some of which will trigger for larger donations, while others will trigger for smaller amounts. We are looking forward to seeing awesome alerts created for this cause, and we thank you for your support!
 
-Submit your Sandbox or OpenSource repository URL by sending me (Heideltraut on Phaser Discord) a DM or emailing me at hello@hammertime.studio.
+Submit your Sandbox or open-source repository URL by sending me (Heideltraut on Phaser Discord) a DM, or email me at hello@hammertime.studio.
 
-This template is also available as Sandbox at https://phaser.io/sandbox/yKLgrdSV.
+This template is also available as a Sandbox at https://phaser.io/sandbox/yKLgrdSV.
 
 ## Phaser Vite TypeScript Template
 
