@@ -8,7 +8,7 @@ The “Call-For-Alerts” is open until October 14th. The Charity Royale team wi
 
 Submit your Sandbox or open-source repository URL by sending me (Heideltraut on Phaser Discord) a DM, or email me at hello@hammertime.studio.
 
-This template is also available as a Sandbox at https://phaser.io/sandbox/yKLgrdSV.
+This template is also available as a Sandbox at https://phaser.io/sandbox/akpzNaQJ.
 
 ## Phaser Vite TypeScript Template
 
